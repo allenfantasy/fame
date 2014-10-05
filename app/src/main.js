@@ -13,9 +13,11 @@ define(function(require, exports, module) {
 
     var pageA = require('views/pageA');
     var pageB = require('views/pageB');
+    var messagesView = require('views/messagesView');
 
     mainContext.add(app);
 
     app.registerPage(pageA);
     app.registerPage(pageB);
+    app.registerPage(messagesView);
 });

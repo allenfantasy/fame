@@ -23,7 +23,7 @@ define(function(require, exports, module) {
   pageA.add(centerSpinModifier).add(logo);
 
   logo.on('click', function() {
-    pageA.jumpTo('pageB');
+    pageA.jumpTo('messagesView');
   });
 
   module.exports = pageA;
