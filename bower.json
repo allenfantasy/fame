@@ -17,13 +17,14 @@
     "famo.us"
   ],
   "license": "ISC",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
     "src/lib",
     "test",
-    "tests"
+    "tests",
+    "example",
+    "index.html"
   ],
   "dependencies": {
     "requirejs": "~2.1.11",

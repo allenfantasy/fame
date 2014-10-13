@@ -1,6 +1,3 @@
-
-
-
 module.exports = function (grunt) {
   'use strict';
   grunt.registerTask('serve', function (target) {
