@@ -13,7 +13,7 @@ module.exports =  function (grunt) {
         open: !grunt.option('no-open'),
         base: [
           '.tmp',
-          '<%= config.app %>'
+          '<%= config.base %>'
         ]
       }
     },

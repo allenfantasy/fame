@@ -14,6 +14,7 @@ module.exports = function(grunt) {
     data: {
       config: {
         // Configurable paths
+        base: '.',
         app: 'example',
         dist: 'dist'
       }
