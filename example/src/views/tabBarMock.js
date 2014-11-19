@@ -16,6 +16,6 @@ define(function(require, exports, module) {
     origin: [.5, .5],
     align: [.5, .5]
   })).add(mock);
-  
+
   module.exports = tabBarMock;
 });

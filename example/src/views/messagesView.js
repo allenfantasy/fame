@@ -72,7 +72,7 @@ define(function(require, exports, module) {
     setNavbarBack(false, undefined);
   });
   msgView._eventInput.on('article-item-selected', function(data) {
-    webSurface.setContent('<iframe width="100%" height="100%" src="' + data.url + '"></iframe>');      
+    webSurface.setContent('<iframe width="100%" height="100%" src="' + data.url + '"></iframe>');
     content.show(webSurface);
     setNavbarBack(true, messagesList);
   });
